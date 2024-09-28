@@ -5,7 +5,7 @@ This repo is built for Model ProAttUnet which focuses on recognizing protein sec
 If you want to evaluate our model on different test sets, you could act as following steps:
 
 - create data in proper format that the model requires and then put it into the directory **test sets**
-- run the instructions in the recommend line: **python evaluation.py --model_name ./Best Models/ProAttUnet**
+- run the instructions in the command line: **python evaluation.py --model_name ./Best Models/ProAttUnet**
 
 And you will see the evaluation results later. Surely, you could modify the file as you want to adapt different situations.
 
