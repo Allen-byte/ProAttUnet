@@ -1,6 +1,6 @@
 This repo is built for Model ProAttUnet which focuses on recognizing protein secondary structures and related data in this study.
 
-#### Evaluate model
+### Evaluate model
 
 If you want to evaluate our model on different test sets, you could act as following steps:
 
@@ -9,7 +9,7 @@ If you want to evaluate our model on different test sets, you could act as follo
 
 And you will see the evaluation results later. Surely, you could modify the file as you want to adapt different situations.
 
-#### Predict sequence
+### Predict sequence
 
 We also provide the **predict.py** file to predict secondary structures of another sequences. You can run instructions like : 
 
