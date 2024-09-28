@@ -11,8 +11,6 @@ And you will see the evaluation results later. Surely, you could modify the file
 
 ### Predict sequence
 
-We also provide the **predict.py** file to predict secondary structures of another sequences. You can run instructions like : 
-
-**python predict.py --fasta_file ./fasta_files/2MXA.fasta --model_name ./Best Models/ProAttUnet**
+We also provide the **predict.py** file to predict secondary structures of another sequences. You can run instructions like: **python predict.py --fasta_file ./fasta_files/2MXA.fasta --model_name ./Best Models/ProAttUnet**
 
 Here, we have provided 3 example fasta files. You can add more fasta files into the directory **fasta_files** for more predictions. The model will return an 8-state label corresponding to each residue.
