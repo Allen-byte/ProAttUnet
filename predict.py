@@ -67,7 +67,6 @@ def torch_to_tf(data):
     data_numpy = data.numpy()
     return tf.convert_to_tensor(data_numpy)
 
-# 将序列分为指定长度的子序列，并丢弃不满足阈值的序列（标签同步）
 def split_sequences(sequences, window_size):
     all_sub_sequences = []
     indexs = []
@@ -97,7 +96,6 @@ def make_esm_list(seqs):
     esm_list = [(f"protein_{i}", seq) for i, seq in enumerate(seqs)]
     return esm_list
 
-# 获取类别标签
 def get_labels(preds):
     num_samples, num_instances, num_classes = preds.shape
     labels = np.zeros((num_samples, num_instances))
