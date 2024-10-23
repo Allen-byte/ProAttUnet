@@ -1,5 +1,9 @@
 This repo is built for Model ProAttUnet which focuses on recognizing protein secondary structures and related data in this study.
 
+#### ProAttUnet
+
+ProAttUnet is a deep learning model for predicting protein secondary structure. It uses the embedded representation information from the ESM2 pre-trained model as input and is an encoding-decoding structure of a U-Net network. According to the characteristics of protein sequences, we have innovatively modified the classic U-Net network, which is manifested by the introduction of the GCU_SE module in the encoder, dual-path feature fusion, and cross-attention mechanism, bringing good performance.
+
 ### Evaluate model
 
 If you want to evaluate our model on different test sets, you could act as following steps:
